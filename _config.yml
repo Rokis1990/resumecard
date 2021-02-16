@@ -1,9 +1,9 @@
 # Site settings
-title: Dong Liang's CV 
-description: ddbullfrog's CV
-favicon: /assets/img/avatar.JPG
-baseurl: https://ddbullfrog.github.io/resumecard
-url: https://ddbullfrog.github.io/resumecard
+title: Rokas' Klydzia CV 
+description: Rokas' Klydzia CV
+favicon: /assets/img/avt_RK.JFIF
+baseurl: 
+url: 
 rss_url: /pages/atom.xml
 google_analytics: UA-63653234-1
 
@@ -14,33 +14,33 @@ exclude: [vendor]
 
 # Author settings
 author:
-  name: Dong Liang
-  title: Java Developer
-  address: Auckland, New Zealand
-  email: dongg.liang#gmail.com
+  name: Rokas Klydzia
+  title: Data generalist
+  address: Vilnius, Lithuania
+  email: rokas.klydzia#gmail.com
   link: http://ddbullfrog.com
   weibo:
-  github: ddbullfrog
-  linkedin: ddbullfrog
-  twitter: ddbullfrog
+  github: Rokis1990
+  linkedin: klydzia
+  twitter: 
   gavatar: /resumecard/assets/img/avatar.JPG
-  stackoverflow:
+  stackoverflow: 9022611
 #  stackoverflow: 4582127
   workHistory:
     - work1:
-      company: XXX Ltd
-      location: Auckland, New Zealand
-      title: Java Developer
-      started: 2014
-      duration: (2014 - Present)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Kantar
+      location: Vilnius, Lithuania
+      title: Data analysis specialist
+      started: 2020
+      duration: (2020 - Present)
+      description: Data analysis specialist working closely with market researchers. Programming automated data analysis and visualization tools that run analysis on survey data at scale. Applying advanced statistical techniques (i.e. statistical matching). Building BI dashboards both for ad-hoc research and CX tracker data. 
     - work2:
-      company: XXX Ltd
-      location: Shanghai, China
-      title: Java Developer
-      started: 2012
-      duration: (2012 - 2014)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: EY Baltic
+      location: Vilnius, Lithuania
+      title: Business technology consultant
+      started: 2018
+      duration: (2018 - 2019)
+      description: Business technology consultant focused on Advanced Data Analytics. Hands on statistical modelling; risk model recalibration; hourly power grid market data analysis; praparating the technical specification for Information System functional requirements; Defining data marts (including data sources, preliminary visualizations, KPI's and other relevant measures) for a govenrmental Nation-scale data warehouse.
     - work3:
       company: XXX Ltd
       location: Shanghai, China
@@ -50,36 +50,124 @@ author:
       description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
   educationHistory:
     - education1:
-      organization: XXXXXX University
-      location: Shenyang, China
+      organization: Vilnius University
+      location: Vilnius, Lithuania
+      degree: Master
+      major: MSc, Economic analysis
+      started: 2017
+      duration: (2017 - 2019)
+      description: Master's degree in Economics
+    - education2:
+      organization: Vilnius University
+      location: Vilnius, Lithuania
       degree: Bachelor
-      major: Software Engineering
-      started: 2005
-      duration: (2005 - 2009)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      major: BBA, Business risk and insurance
+      started: 2009
+      duration: (2009 - 2013)
+      description: Bachelor's degree in Business Administration in the Top Lithuanian University.
   languages:
     - language1:
-      name: Chinese
+      name: Lithuanian
       proficiency: Native
     - language2:
       name: English
       proficiency: Professional
     - language3:
-      name: Japanese
-      proficiency: Limit
+      name: Russian
+      proficiency: Limited
+    - language4:
+      name: Portuguese
+      proficiency: Limited
+    - language5:
+      name: Latvian
+      proficiency: Limited
   programmingSkills:
     - skill1:
-      name: HTML
-      percentage: 100%
+      name: R
+      percentage: 65%
     - skill2:
-      name: Bootstrap
-      percentage: 90%
+      name: Power BI
+      percentage: 50%
     - skill3:
-      name: JavaScript
-      percentage: 70%
+      name: Python
+      percentage: 30%
     - skill4:
-      name: AngularJS
-      percentage: 70%
+      name: DAX
+      percentage: 25%
     - skill5:
+      name: Power Query
+      percentage: 35%
+    - skill6:
+      name: SQL
+      percentage: 30%
+    - skill7:
       name: Java/Java EE
+      percentage: 15%
+  DataScienceSkills:
+    - skill1:
+      name: Time series analysis
+      percentage: 60%
+    - skill2:
+      name: Machine Learning
+      percentage: 50%
+    - skill3:
+      name: Deep Learning
+      percentage: 30%
+    - skill4:
+      name: Market research
+      percentage: 25%
+    - skill5:
+      name: Classification
+      percentage: 30%
+    - skill6:
+      name: Optimization
+      percentage: 30%
+    - skill7:
+      name: Financial analysis
+      percentage: 15%
+    - skill8:
+      name: Business Intelligence
+      percentage: 90%
+    - skill9:
+      name: Data cleansing
+      percentage: 90%
+    - skill10:
+      name: Algorithms
+      percentage: 90%
+    - skill11:
+      name: Data structures
+      percentage: 90%
+    - skill12:
+      name: Experimental design
+      percentage: 90%
+  DataEngineeringSkills:
+    - skill1:
+      name: Data integration
+      percentage: 60%
+    - skill2:
+      name: REST
+      percentage: 50%
+    - skill3:
+      name: Cloud management
+      percentage: 30%
+    - skill4:
+      name: Market research
+      percentage: 25%
+    - skill5:
+      name: Classification
+      percentage: 30%
+    - skill6:
+      name: Optimization
+      percentage: 30%
+    - skill7:
+      name: Financial analysis
+      percentage: 15%
+    - skill8:
+      name: Business Intelligence
+      percentage: 90%
+    - skill9:
+      name: Algorithms
+      percentage: 90%
+    - skill10:
+      name: Data structures
       percentage: 90%
